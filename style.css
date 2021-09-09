@@ -1,8 +1,12 @@
 body{
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
+    margin: 0%; 
 }
 h1{
     font-size: 50px;
+}
+p{
+    color: dimgrey;
 }
 .name-highlight{
     color: orange;
@@ -24,4 +28,41 @@ h1{
     45deg
 , lightsalmon, tomato);
     text-decoration: none;
+}
+.top-banner{
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+   
+}
+.second-banner{
+    background-image: url("img/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position: right;
+}
+.experiance{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+section{
+    height: 500px;
+    margin-bottom: 100px;
+}
+.single{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    border-radius: 5px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon , tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
 }
